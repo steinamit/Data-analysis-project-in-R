@@ -1,3 +1,4 @@
+#Made by Amit Stein and Noa Rubin
 #Adding the relevant packages to this section
 install.packages("forecast")
 install.packages("ggplot2")
@@ -21,7 +22,7 @@ str(b1)
 
 #2
 #Required to import the data and identify the object.
-DATA <- read.csv("C:/ariel university/year b/production management 1/R task/DATA_324809300_NoaRubin.csv")
+DATA <- read.csv("C:/ariel university/production management 1/R project/DATA.csv")
 DATA_TS <- ts(DATA)
 str(DATA_TS)
 
